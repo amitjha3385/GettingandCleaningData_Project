@@ -23,11 +23,11 @@ The dataset contains observations on 561 variables. For more information :
 
 The tidydata.txt is a processed subset of the original data.
 
-1) Each of the datasets, train and test, were read in and combined with activity data from activity.txt and subject data from data.txt.
+1) Each of the datasets, train and test, were read in and combined with activity data from activity.txt and subject data from subject.txt.
 
-2) Appropriate Headers from features.txt was given as names for the dataframe.
+2) Appropriate Headers from features.txt was given as column names for the dataframe.
 
-3) The data was subset to contain only information for variable mean(), std(), and meanFreq().
+3) The data was subset to contain only information for mean(), std(), and meanFreq() for the variables.
 
 4) The functions to perform 1) to 3) are in readdata.R script.
 
